@@ -113,6 +113,8 @@ img {
 /* section one */
 .section-one {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .section-one-text {
   font-weight: 700;
@@ -121,7 +123,6 @@ img {
   letter-spacing: 0.02em;
   max-width: 496px;
   color: #ffffff;
-  padding-top: 188px;
   margin: 0 auto;
   padding-bottom: 48px;
   text-align: center;
@@ -139,10 +140,11 @@ img {
   border-radius: 4px;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
-.cnt {
-  padding-bottom: 100px;
-}
+
 .section-one-button:hover {
   background: #404bbf;
 }
