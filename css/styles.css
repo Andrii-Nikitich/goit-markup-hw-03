@@ -20,7 +20,7 @@ h5,
 h6,
 p {
   margin-top: 0;
-  margin-bottom: ;
+  margin-bottom: 0;
 }
 img {
   display: block;
@@ -153,17 +153,6 @@ img {
 }
 /* section one */
 /* section two */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
 
 .sec-two {
   padding-top: 120px;
@@ -175,7 +164,7 @@ img {
 }
 
 .section-t-tt {
-  flex-basis: calc((100%-72px) / 4);
+  width: calc((100%-72px) / 4);
 }
 .section-two-text {
   font-weight: 500;
