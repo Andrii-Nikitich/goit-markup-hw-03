@@ -116,10 +116,12 @@ p {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
-  width: 496px;
-  text-align: center;
+  max-width: 496px;
   color: #ffffff;
   padding-top: 188px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+  text-align: center;
 }
 
 .section-one-button {
@@ -130,7 +132,13 @@ p {
   background: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
-  margin-bottom: 188px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+}
+.cnt {
+  padding-bottom: 100px;
 }
 .section-one-button:hover {
   background: #404bbf;
@@ -147,6 +155,9 @@ p {
 .section-t-t {
   display: flex;
   gap: 24px;
+}
+
+.section-t-tt {
   width: calc((100%-72px) / 4);
 }
 .section-two-text {
@@ -190,7 +201,7 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   padding-top: 120px;
-
+  padding-bottom: 72px;
   color: #2e2f42;
 }
 .section-three-fon {
@@ -205,6 +216,7 @@ p {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32;
 }
 .section-three-text-work {
   font-weight: 400;
@@ -224,6 +236,7 @@ p {
   text-align: center;
   color: #2e2f42;
   padding-top: 120px;
+  padding-bottom: 72px;
 }
 .section-four-name {
   font-weight: 500;
@@ -237,6 +250,7 @@ p {
   flex-wrap: wrap;
   padding-bottom: 120px;
   gap: 24px;
+  margin-bottom: 48px;
 }
 
 .section-four-text {
@@ -270,7 +284,7 @@ p {
 }
 
 .footer-text {
-  width: 264px;
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
