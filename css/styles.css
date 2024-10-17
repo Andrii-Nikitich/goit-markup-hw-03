@@ -241,6 +241,10 @@ img {
 /* section three */
 /* section four */
 .section-four {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-four-t {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
@@ -249,7 +253,7 @@ img {
   text-align: center;
   color: #2e2f42;
   padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .section-four-name {
   font-weight: 500;
@@ -257,6 +261,7 @@ img {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-four-img {
   display: flex;
@@ -264,8 +269,13 @@ img {
   padding-bottom: 120px;
   gap: 24px;
   margin-bottom: 48px;
+  row-gap: 48px;
 }
-
+.sec-for-tt {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .section-four-text {
   font-weight: 400;
   font-size: 16px;
