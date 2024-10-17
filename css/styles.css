@@ -22,7 +22,9 @@ p {
   margin-top: 0;
   margin-bottom: ;
 }
-
+img {
+  display: block;
+}
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -270,6 +272,7 @@ p {
   font-weight: 700;
   font-size: 18px;
   padding-top: 100px;
+  padding-bottom: 100px;
 
   line-height: 117%;
   letter-spacing: 0.03em;
@@ -291,7 +294,7 @@ p {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-bottom: 100px;
+
   font-family: "Roboto", sans-serif;
 }
 /* footer */
