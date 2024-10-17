@@ -20,9 +20,9 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="containere">
-        <nav>
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="header-nav">
           <a class="header-logo" href="./index.html"
             >Web<span class="header-logo-web">Studio</span></a
           >
@@ -35,7 +35,7 @@
           </ul>
         </nav>
         <address class="address">
-          <ul>
+          <ul class="address-list">
             <li>
               <a class="address-logo" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -51,24 +51,26 @@
       </div>
     </header>
     <main>
-      <div class="container">
-        <section class="section-one">
+      <section class="section-one">
+        <div class="container">
           <h1 class="section-one-text">
             Effective Solutions for Your Business
           </h1>
           <button class="section-one-button" type="button">
             <span class="section-one-button-text">Order Service</span>
           </button>
-        </section>
+        </div>
+      </section>
 
-        <section>
+      <section class="sec-two">
+        <div class="container">
           <h2 class="section-two" hidden>Advantages</h2>
-          <ul>
+          <ul class="section-t-t">
             <li>
               <h3 class="section-two-text">Strategy</h3>
               <p class="section-two-text-two">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
+                Our goal is to identify the business problem to walk away with the
+                perfect and creative solution.
               </p>
             </li>
             <li>
@@ -92,12 +94,15 @@
                 deep passion for problem-solving.
               </p>
             </li>
-          </ul>
-        </section>
+        </div>
+        
+        </ul>
+      </section>
 
-        <section class="section-three">
+      <section class="section-three">
+        <div class="container">
           <h2 class="section-three-text">Our Team</h2>
-          <ul>
+          <ul class="section-tr-t">
             <li class="section-three-temp">
               <img
                 src="./images/imges1.jpg"
@@ -105,8 +110,11 @@
                 width="264"
                 height="260"
               />
-              <h3 class="section-three-text-name">Mark Guerrero</h3>
-              <p class="section-three-text-work">Product Designer</p>
+              <div class="container-three-text">
+                <h3 class="section-three-text-name">Mark Guerrero</h3>
+                <p class="section-three-text-work">Product Designer</p>
+              </div>
+              
             </li>
             <li class="section-three-temp">
               <img
@@ -115,8 +123,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="section-three-text-name">Tom Ford</h3>
-              <p class="section-three-text-work">Frontend Developer</p>
+              <div class="container-three-text">
+                  <h3 class="section-three-text-name">Tom Ford</h3>
+                  <p class="section-three-text-work">Frontend Developer</p>
+              </div>
             </li>
             <li class="section-three-temp">
               <img
@@ -125,8 +135,11 @@
                 width="264"
                 height="260"
               />
-              <h3 class="section-three-text-name">Camila Garcia</h3>
-              <p class="section-three-text-work">Marketing</p>
+              <div class="container-three-text">
+                <h3 class="section-three-text-name">Camila Garcia</h3>
+                <p class="section-three-text-work">Marketing</p>
+              </div>
+              
             </li>
             <li class="section-three-temp">
               <img
@@ -135,17 +148,22 @@
                 width="264"
                 height="260"
               />
-              <h3 class="section-three-text-name">Daniel Wilson</h3>
-              <p class="section-three-text-work">UI Designer</p>
+              <div class="container-three-text">
+                <h3 class="section-three-text-name">Daniel Wilson</h3>
+                <p class="section-three-text-work">UI Designer</p>
+              </div>
+              
             </li>
           </ul>
-        </section>
+        </div>
+        
+      </section>
 
-        <section>
-          >
+      <section>
+        <div class="container">
           <h2 class="section-four">Our Portfolio</h2>
-          <ul>
-            <li>
+          <ul class="section-four-img">
+            <li >
               <img
                 src="./images/for1.jpg"
                 alt="Project Card 1"
@@ -206,12 +224,13 @@
               <p class="section-four-text">Marketing</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+        
+      </section>
     </main>
 
     <footer class="footer">
-      <div class="containre">
+      <div class="container">
         <a class="footer-index" href="./index.html">
           Web<span class="footer-logo">Studio</span></a
         >
